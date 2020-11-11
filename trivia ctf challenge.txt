@@ -1,0 +1,4 @@
+TRIVIA CHALLENGE FOR CTF
+
+perguntas mais interpretativas e difiçeis que envolvem teoria da computação, outputs de códigos e um 
+pouco de matematica, criptografia, hacking, alan turing, ect.
