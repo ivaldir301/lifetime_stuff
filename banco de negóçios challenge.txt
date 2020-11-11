@@ -1,0 +1,31 @@
+banco cabo-berdiano de negoçios governamentais
+
+OBJECTIVO:
+
+Conseguir entrar no site, ganhar conta de administrado, ter acesso a pagina de admin, invadir 
+a base de dados e roubar infos de contas super secret e outros links para outras challenges 
+(site super secret do governo por exemplo)
+
+ESTRUTURA DO SITE
+
+geral: login, cadastro de clientes, login de funcionarios, info, contactos, sobre nós, serviços
+
+campo de login na entrada
+
+--> podera ser hackeado com brute forcer ou atravez de captura de mensagens com por 
+exemplo wireshark ou similares (mensagens hasheadas para não ficar tão simples)
+
+--> uma vez dentro do site com uma conta de um usuario normal, escalar privilegios para conseguir 
+uma outra conta tipo gerente para assim ter acesso a outras paginas com outras vulnerabilidades 
+e tentar acesso ao servidor 
+(alguma vulnerabilidade que so pode ser vista na pagina que o gerente tem acesso 
+SQL INJECTION, SERVER EXPLOITS, trafego do site não criptografado)  
+
+--> roubar dentro do servidor uma flag(string em um arquivo) com informações criptografadas, quebrar e ter 
+acesso a flag do desafio
+
+	-ou também podería roubar a secção do admin atraves de xss e ter acesso a sua conta por exemplo;
+
+
+
+
