@@ -1,0 +1,34 @@
+NOSY INTERN OPERATIVE SYSTEM
+
+OBJECTIVO
+
+Simular um sistema operacional com c, usando uma biblioteca customizada cujo
+os jogadores vão ter de operar através dos seus própios códigos em c e envolver com
+o sistema atravez de chamadas de funções pre-programadas na biblioteca.
+
+estrutura:
+login, boot system(com vulnerabilidades para conseguir palavra chaves de usuarios ou criar outros) 
+systema de arquivos simples, configurações, visor de processos e usuarios ativos e oque estão fazendo no sistema, 
+desativador de funcionalidades (como os hashes da criptografia, e ect) 
+
+--> terão que conseguir acesso ao sistema atravez do sistema de arquivo de usuarios do
+ boot que de alguma forma ira estar aberto 
+
+--> após de alguma forma eles conseguirem acesso ao sistema terão que descobrir aonde estara a pasta
+ de configurações e arquivos do sistema e saber que ali estarão informações sobre todo e todos no sistema 
+mas so o admin tem acesso de ler e escrever
+
+-->algumas passwords e mensagens dos usuarios navegam nos processos (tudo hasheado ou criptografado)
+e terão que captura-los e resolve-los em texto normal
+
+-->vão ter de conseguir acesso a password de admin atravez de captura nos processos ou no processo de boot 
+com a mensagem escondida e hasheada
+
+-->apos de alguma forma conseguirem acesso a conta de admin terão de conseguir encontrar a base de dados super
+secret do governo de cabo verde e tirar o segredo criptografado de lá
+(numa base de dados escondida, com usuario e palavra chave: terão de fazer força bruta,
+entrar e descriptografar a palavra passe e apanhar a flag dentro do sistema)
+
+
+
+
